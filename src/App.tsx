@@ -11,7 +11,10 @@ export function App() {
           <span className="text-sm text-muted-foreground">
             Desenvolvido com 💙 no NLW da Rocketseat
           </span>
-          <Button variant={"outline"}>Github</Button>
+          <Button variant={"outline"}>
+            <Github className='w-4 h-4 mr-2'/>
+            Github
+          </Button>
         </div>
       </div>
     </div>
